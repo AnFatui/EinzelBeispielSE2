@@ -3,11 +3,11 @@ import java.io.*;
 import java.net.*;
 
 public class Network {
-//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
+
     String sentence;
     String modifiedSentence;
 
-    BufferedReader inFromUser;
+
     Socket clientSocket;
     DataOutputStream outToServer;
 
@@ -17,7 +17,6 @@ public class Network {
         {
             try {
                 clientSocket = new Socket("se2-isys.aau.at", 53212);
-                //inFromUser = new BufferedReader(new InputStreamReader(System.in));
                 outToServer = new DataOutputStream(clientSocket.getOutputStream());
                 inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                 sentence = String.valueOf(studentID);

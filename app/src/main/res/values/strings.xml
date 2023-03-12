@@ -2,6 +2,6 @@
     <string name="app_name">My Application</string>
     <string name="gib_deine_matrikkelnummer_ein">Gib deine Matrikkelnummer ein</string>
     <string name="matrikelnummer_eingeben">Matrikelnummer eingeben</string>
-    <string name="Submit">Abbrechen</string>
+    <string name="Submit">Submit</string>
     <string name="antwort_vom_server">Antwort vom Server</string>
 </resources>
